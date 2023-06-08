@@ -1,4 +1,4 @@
-Scenario Vehicle Management System :
+**Scenario Vehicle Management System :**
 
 The scenario is a vehicle management system is web application which is built on reactjs, That allow users to create , diplay , update , delete scenarios and vehicles. The application provides a button to initiate vehicle movement based on the selected scenario and vehicle parameters. Once activated, vehicles will move according to their respective speeds and directions. Users can observe the real-time movement of vehicles on the screen.
 
@@ -9,60 +9,20 @@ FEATURES :
 => Vehicles can be moved based on the scenario and vehicle parameters.
 => Real-time updates of vehicle positions.
 
-TECHNOLOGIES USED
+TECHNOLOGIES USED :
 => React.js: A JavaScript library for building user interfaces.
 => Json-server: A simple JSON-based database for development and prototyping.
 
-PREREQUISITES
+PREREQUISITES :
 => Node.js: Make sure you have Node.js installed on your pc.<br/>
 
-GETTING STARTED
+GETTING STARTED :
 1. Clone the repository git clone {repository url}
 2. Navigate to folder cd project_Name
 3. Install the dependencies npm install
 4. start the react application npm start<br/>
 
-FOLDER STRUCTURE
-
-├── public
-│   ├── index.html
-│   └── ...
-├── src
-│   ├── api
-│   │   └── apiCall.js
-│   ├── atoms
-│   │   ├── buttons
-│   │   │   ├── PrimaryButton.js
-│   │   │   ├── SecondaryButton.js
-│   │   │   └── ...
-│   │   ├── inputs
-│   │   │   ├── TextInput.js
-│   │   │   ├── NumberInput.js
-│   │   │   └── ...
-│   │   ├── icons
-│   │   │   ├── ArrowIcon.js
-│   │   │   ├── StarIcon.js
-│   │   │   └── ...
-│   │   └── ...
-│   ├── components
-│   │   ├── sidebar
-│   │   │   ├── Sidebar.js
-│   │   │   └── ...
-│   │   ├── drivingVehicle
-│   │   │   ├── DrivingVehicle.js
-│   │   │   └── ...
-│   │   ├── home
-│   │   │   ├── Home.js
-│   │   │   └── ...
-│   │   └── ...
-│   ├── helper
-│   │   └── utility.js
-│   ├── App.js
-│   ├── index.js
-│   └── ...
-├── package.json
-└── ...
-
+FOLDER STRUCTURE :
 Src/Api : all the api request are maintained here
 Src/Atoms : The atoms folder has subfolders representing different types of atomic components, such as buttons, inputs etc.
 Src/Components : The Components folder contains various reusable components.
