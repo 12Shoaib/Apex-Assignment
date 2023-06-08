@@ -1,0 +1,47 @@
+.orange {
+  height: 2.8rem;
+  width: 10rem;
+  border: 0rem solid black;
+  border-radius: 5px;
+  outline: none;
+  color: white;
+  letter-spacing: 0.02rem;
+  background-color: #e37933;
+  font-weight: 550;
+}
+.blue {
+  height: 2.8rem;
+  width: 13rem;
+  border: 0rem solid black;
+  border-radius: 5px;
+  outline: none;
+  color: white;
+  letter-spacing: 0.02rem;
+  background-color: #3499c1;
+  font-weight: 550;
+}
+
+.green {
+  height: 2.8rem;
+  width: 13rem;
+  border: 0rem solid black;
+  border-radius: 5px;
+  outline: none;
+  color: white;
+  letter-spacing: 0.02rem;
+  background-color: #5cb85c;
+  font-weight: 550;
+}
+
+.orange:hover,
+.green:hover,
+.blue:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.orange:active,
+.green:active,
+.blue:active {
+  opacity: 1;
+}

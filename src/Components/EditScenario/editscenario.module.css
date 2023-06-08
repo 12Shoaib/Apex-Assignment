@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  align-items: flex-start;
+}
+.edit_options {
+  padding: 1rem;
+  background-color: #1e1e1e;
+  color: white;
+  font-family: "Montserrat", "san-serif";
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.editor_wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.btn {
+  height: 2rem;
+  width: 6rem;
+  background-color: lightblue;
+  border: 0rem solid black;
+  outline: none;
+}

@@ -1,0 +1,45 @@
+.orange {
+  background-color: #e37933;
+  color: white;
+  outline: none;
+  border: 0rem solid black;
+  height: 2.5rem;
+  width: 6rem;
+  border-radius: 5px;
+  font-weight: 550;
+  letter-spacing: 0.02rem;
+}
+.green {
+  background-color: #5cb85c;
+  color: white;
+  outline: none;
+  border: 0rem solid black;
+  height: 2.5rem;
+  width: 6rem;
+  border-radius: 5px;
+  font-weight: 550;
+  letter-spacing: 0.02rem;
+}
+.blue {
+  background-color: #3499c1;
+  color: white;
+  outline: none;
+  border: 0rem solid black;
+  height: 2.5rem;
+  width: 6rem;
+  border-radius: 5px;
+  font-weight: 550;
+  letter-spacing: 0.02rem;
+}
+.orange:hover,
+.green:hover,
+.blue:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.orange:active,
+.green:active,
+.blue:active {
+  opacity: 1;
+}
