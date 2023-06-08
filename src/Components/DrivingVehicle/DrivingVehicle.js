@@ -2,8 +2,8 @@ import { useState, useEffect } from "react";
 import drivingvehicle from "./drivingvehicle.module.css";
 
 const DrivingVehicle = ({ vehicleDetails, isMoving }) => {
-  const { direction, speed, vehicleName, positionX, positionY } =
-    vehicleDetails;
+  const { direction, speed, vehicleName, positionX, positionY } = vehicleDetails;
+  const [isOutsideArea, setIsOutsideArea] = useState(false);
   const [position, setPosition] = useState({
     coordinateX: positionX,
     coordinateY: positionY,
@@ -25,6 +25,7 @@ const DrivingVehicle = ({ vehicleDetails, isMoving }) => {
           } else if (direction === "Downwards") {
             newYPosition += speed;
           }
+          setIsOutsideArea(newXPosition < 0 || newXPosition > 40);
           return { coordinateX: newXPosition, coordinateY: newYPosition };
         });
       }, 1000);
@@ -33,7 +34,6 @@ const DrivingVehicle = ({ vehicleDetails, isMoving }) => {
       clearInterval(myInterval);
     };
   }, [isMoving, speed, direction]);
-  const isOutsideArea = position.coordinateX < 0 || position.coordinateX > 40;
 
   return (
     <>
