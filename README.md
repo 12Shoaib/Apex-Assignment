@@ -1,17 +1,22 @@
-Scenario Vehicle Management System :<br/>
-The scenario is a vehicle management system is web application which is built on reactjs, That allow users to create , diplay , update , delete scenarios and vehicles. The application provides a button to initiate vehicle movement based on the selected scenario and vehicle parameters. Once activated, vehicles will move according to their respective speeds and directions. Users can observe the real-time movement of vehicles on the screen.<br/>
-FEATURES : <br/>
+Scenario Vehicle Management System :
+
+The scenario is a vehicle management system is web application which is built on reactjs, That allow users to create , diplay , update , delete scenarios and vehicles. The application provides a button to initiate vehicle movement based on the selected scenario and vehicle parameters. Once activated, vehicles will move according to their respective speeds and directions. Users can observe the real-time movement of vehicles on the screen.
+
+FEATURES : 
 => Create, display, update, and delete scenarios.
 => Create, display, update, and delete vehicles.
 => Assign multiple vehicles to a scenario.
 => Vehicles can be moved based on the scenario and vehicle parameters.
-=> Real-time updates of vehicle positions.<br/>
-TECHNOLOGIES USED<br/>
+=> Real-time updates of vehicle positions.
+
+TECHNOLOGIES USED
 => React.js: A JavaScript library for building user interfaces.
-=> Json-server: A simple JSON-based database for development and prototyping.<br/>
-PREREQUISITES<br/>
+=> Json-server: A simple JSON-based database for development and prototyping.
+
+PREREQUISITES
 => Node.js: Make sure you have Node.js installed on your pc.<br/>
-GETTING STARTED<br/>
+
+GETTING STARTED
 1. Clone the repository git clone {repository url}
 2. Navigate to folder cd project_Name
 3. Install the dependencies npm install
@@ -64,8 +69,6 @@ Src/Components : The Components folder contains various reusable components.
 Src/Helper : The Helper folder has helper functions<br/>
 
 USAGE:
-
-Usage
 1.Create a Scenario:
 Click on the "Create Scenario" button.
 Fill in the scenario name and time.
@@ -108,3 +111,5 @@ Vehicles will move based on their assigned scenario and parameters.
 <br/>
 
 LINKS :
+Deployment(Live) : https://apex-assignment-wine.vercel.app/
+GitHub : https://github.com/12Shoaib/Apex-Assignment
