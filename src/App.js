@@ -6,10 +6,11 @@ import AddVehicle from "./Components/AddVehicle/AddVehicle";
 import AllScenario from "./Components/AllScenario/AllScenario";
 import EditScenario from "./Components/EditScenario/EditScenario";
 import EditVehicle from "./Components/EditVehicle/EditVehicle";
+import FallbackUI from "./Components/FallbackUI/FallbackUI";
 
 const App = () => {
   return (
-    <ErrorBoundary>
+    <ErrorBoundary FallbackComponent={FallbackUI}>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/addscenario" element={<AddScenario />} />
