@@ -47,7 +47,7 @@ const DrivingVehicle = ({ vehicleDetails, isMoving }) => {
           height: "1rem",
           backgroundColor: "red",
           borderRadius: "30px",
-          visibility: isOutsideArea ? "hidden" : "visible",
+          display: isOutsideArea ? "none" : "block",
         }}
       >
         {vehicleName}
